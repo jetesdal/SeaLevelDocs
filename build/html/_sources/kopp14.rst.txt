@@ -1,0 +1,173 @@
+==================
+Kopp et al. (2014)
+==================
+
+:Title: Probabilistic 21st and 22nd century sea-level projections at a global network of tide-gauge sites
+:Key Points:
+    - Rates of local sea-level rise differs from rate of global sea-level rise
+    - Differences arise from land motion, ocean dynamics, and Antarctic mass balance
+    - Local sea-level rise can dramatically increase flood probabilities
+
+:Corresponding author: R. E. Kopp
+
+:Citation: Kopp, R. E., R. M. Horton, C. M. Little, J. X. Mitrovica, M. Oppenheimer, D. J. Rasmussen, B. H. Strauss, and C. Tebaldi (2014), Probabilistic 21st and 22nd century sea-level projections at a global network of tide-gauge sites, Earth's Future, 2, 383 – 406, doi:10.1002/2014EF000239.
+
+Abstract
+--------
+
+Sea-level rise due to both climate change and non-climatic factors threatens coastal settlements, infrastructure, and ecosystems. Projections of mean global sea-level (GSL) rise provide insufficient information to plan adaptive responses; local decisions require local projections that accommodate different risk tolerances and time frames and that can be linked to storm surge projections. Here we present a global set of local sea-level (LSL) projections to inform decisions on timescales ranging from the coming decades through the 22nd century. We provide complete probability distributions, informed by a combination of expert community assessment, expert elicitation, and process modeling. Between the years 2000 and 2100, we project a very likely (90% probability) GSL rise of 0.5 to 1.2 m under representative concentration pathway (RCP) 8.5, 0.4 to 0.9 m under RCP 4.5, and 0.3 to 0.8 m under RCP 2.6. Site-to-site differences in LSL projections are due to varying non-climatic background uplift or subsidence, oceanographic effects, and spatially variable responses of the geoid and the lithosphere to shrinking land ice. The Antarctic ice sheet (AIS) constitutes a growing share of variance in GSL and LSL projections. In the global average and at many locations, it is the dominant source of variance in late 21st century projections, though at some sites oceanographic processes contribute the largest share throughout the century. LSL rise dramatically reshapes flood risk, greatly increasing the expected number of "1-in-10" and "1-in-100" year events.
+
+Introduction
+------------
+
+Sea-level rise figures prominently among the consequences of climate change. It impacts settlements and ecosystems both through permanent inundation of the lowest-lying areas and by increasing the frequency and/or severity of storm surge over a much larger region. In Miami-Dade County, Florida, for example, a uniform 90-cm sea-level rise would permanently inundate the residences of about 5% of the county’s population, about the same fraction currently threatened by the storm tide of a 1-in-100 year flood event [Tebaldi et al., 2012]. A 1-in-100 year flood on top of such a sea-level rise would, assuming geographically uniform flooding, expose an additional 35% of the population (Climate Central, Surging Seas, 2013, retrieved from SurgingSeas.org, updated November 2013).
+
+The future rate of mean global sea-level (GSL) rise will be controlled primarily by the thermal expansion of ocean water and by mass loss from glaciers, ice caps, and ice sheets [Church et al., 2013]. Changes in land water storage, through groundwater depletion and reservoir impoundment, may have influenced twentieth-century sea-level change [Gregory et al., 2013] but are expected to be relatively minor contributors compared to other factors in the current century [Church et al., 2013].
+
+Local sea-level (LSL) change can differ significantly from GSL rise [Milne et al., 2009; Stammer et al., 2013], so for adaptation planning and risk management, localized assessments are critical. The spatial variability of LSL change arises from: (1) non-uniform changes in ocean dynamics, heat content, and salinity [Levermann et al., 2005; Yin et al., 2009], (2) perturbations in the Earth’s gravitational ﬁeld and crustal height (together known as static-equilibrium effects) associated with the redistribution of mass between the cryosphere and the ocean [Kopp et al., 2010; Mitrovica et al., 2011], (3) glacial isostatic adjustment (GIA) [Farrell and Clark, 1976], and (4) vertical land motion due to tectonics, local groundwater, and hydrocarbon withdrawal, and natural sediment compaction and transport [e.g., Miller et al., 2013].
+
+Most past assessments of LSL change have focused on specific regions, such as the Netherlands [Katsman et al., 2011], the U.S. Paciﬁc coast [National Research Council, 2012], New York City [Horton et al., 2011; New York City Panel on Climate Change, 2013], and New Jersey [Miller et al., 2013]. Slangen et al. [2012], Slangen et al. [2014], Perrette et al. [2013], and Church et al. [2013] [AR5] have produced global projections of LSL using Coupled Model Intercomparsion Project (CMIP) projections [Taylor et al., 2012] for thermal expansion and ocean dynamics, along with estimates of net land ice changes, their associated static-equilibrium eﬀects and GIA.
+
+Here we expand upon past efforts to project LSL globally. First, we present a complete probability distribution. This is critical for planning purposes; the likely (67% probability) ranges presented in AR5 and many other previous efforts provide no information about the highest 17% of outcomes, which may well be key to risk management. Second, we indicatively extend our projections to 2200, in order to inform both decision-making regarding long-term infrastructure investment decisions and their longer term land use consequences, and also greenhouse gas mitigation decisions in the context of long-term sea-level rise commitments [Levermann et al., 2013]. Finally, using a Gaussian process model [Kopp, 2013] of historical tide-gauge data [Holgate et al., 2013], we include probabilistic estimates of local non-climatic factors.
+
+We first present our framework and projections for selected locations (projections for all tide-gauge locations are included in the Supporting Information), then assess the effects of sea-level rise on coastal flooding risk at these locations. Throughout, we seek to employ transparent assumptions and an easily replicable methodology that is useful for risk assessment and can be readily updated with new information.
+
+
+Methods
+-------
+
+LSL projections require the projection and aggregation of the individual components of sea-level change [e.g., Milne et al., 2009] at each site of interest. Here, we project three ice sheet components (the Greenland Ice Sheet, GIS; the West Antarctic ice sheet, WAIS; and the East Antarctic ice sheet, EAIS); glacier and ice cap (GIC) surface mass balance (SMB); global mean thermal expansion and regional ocean steric and ocean dynamic effects (which we collectively call oceanographic processes); land water storage; and long-term, local, non-climatic sea-level change due to factors such as GIA, sediment compaction, and tectonics. In our base case, we allow correlations, derived from the SMB model, between different mountain glaciers but otherwise assume that, conditional upon a global radiative forcing pathway, the components are independent of one another. To calculate GSL and LSL probability distributions, we employ 10,000 Latin hypercube samples from time-dependent probability distributions of cumulative sea-level rise contributions for each of the individual components. The sources of information used to develop these distributions are described below and summarized in Figure 1.
+
+.. figure:: figures/kopp14/fig01.jpg
+   :align: center
+   :width: 50%
+
+   Figure 1: Logical ﬂow of sources of information used in local sea-level projections. GCMs, global climate models; GIC, glaciers and ice caps; SMB: surface mass balance.
+
+We construct separate projections for three representative concentration pathways (RCPs): RCP 2.6, RCP 4.5, and RCP 8.5 [Meinshausen et al., 2011], which correspond respectively to likely global mean temperature increases in 2081 – 2100 of 1.9-2.3˚C, 2.0-3.6˚C, and 3.2-5.4˚C above 1850-1900 levels [Intergovernmental Panel on Climate Change, 2013]. We do not consider RCP 6.0, as 21st-century sea-level rise projections for this pathway are nearly identical to those for RCP 4.5, and few CMIP Phase 5 (CMIP5) model runs for RCP 6.0 extend beyond 2100 [Taylor et al., 2012]. The RCPs do not represent socioeconomic scenarios but can be compared to emissions in no-policy socioeconomic projections such as the Shared Socioeconomic Pathways (SSPs) [O’Neill et al., 2014]. Radiative forcing in RCP 6.0 in the second half of the century is comparable to that in the lowest emissions SSP (SSP 1), while RCP 8.5 is above four of the SSPs but below the highest-emission SSP [Riahi, 2013]. Thus, RCP 8.5 can be viewed as corresponding to high-end business-as-usual emissions and RCP 4.5 as a moderate mitigation policy scenario. RCP 2.6 requires net-negative global emissions in the last quarter of the 21st century, implying a combination of intensive greenhouse gas mitigation and at least modest active carbon dioxide removal.
+
+Ice Sheets
+~~~~~~~~~~
+
+Our projections of 21st-century changes in mass balance of GIS and the Antarctic ice sheet (AIS) are generated by combining the projections of AR5 and the expert elicitation of Bamber and Aspinall [2013] [BA13]. AR5 is used to characterize median and likely ranges of sea-level change, while BA13 is used to calibrate the shape of the tails (Supporting Information Figure S1 and Table S1).
+
+Figure S1: Exceedance probabilities for GIS (left) and AIS (right) mass loss between 2000 and 2100 in RCP 8.5, in meters equivalent sea level. Green curves are derived from Bamber and Aspinall [2013], blue curves from the median and likely range of AR5, and red curves are a hybrid based on the green curves but shifted and scaled to match the median and likely range of AR5.
+
+Table S1: Ice sheet mass loss in sensitivity cases (cm equivalent sea level, RCP 8.5 in 2100)
+
++------------+-------+-------+--------+---------+---------+-------+--------+--------+---------+---------+
+|    cm      |                   GIS                      |                   AIS                       |
++------------+-------+-------+--------+---------+---------+-------+--------+--------+---------+---------+
+|            |  50   | 17-83 |  5-95  | 0.5-99.5|  99.9   |  50   | 17-83  |  5-95  | 0.5-99.5|  99.9   |
++------------+-------+-------+--------+---------+---------+-------+--------+--------+---------+---------+
+|   Default  |  14   | 8-25  |  5-39  | 3-70    |  <95    |  4    | -8-15  | -11-33 | -14-91  | <155    |
++------------+-------+-------+--------+---------+---------+-------+--------+--------+---------+---------+
+|    AR5     |  14   | 8-25  |  5-39  | 3-68    |  <95    |  4    | -8-15  | -16-23 | -26-35  | <40     |
++------------+-------+-------+--------+---------+---------+-------+--------+--------+---------+---------+
+|    BA      |  14   | 10-21 |  9-29  | 7-48    |  <65    |  14   | 2-41   | -2-84  | -4-220  | <375    |
++------------+-------+-------+--------+---------+---------+-------+--------+--------+---------+---------+
+| Alt. Corr. |  14   | 8-25  |  5-39  | 3-70    |  <95    |  4    | -8-15  | -12-33 | -14-85  | <185    |
++------------+-------+-------+--------+---------+---------+-------+--------+--------+---------+---------+
+
+
+
+AR5 separately assesses AIS and GIS mass balance changes driven by SMB and ice sheet dynamics. For ice sheet dynamics, AR5 determined that there was insufficient knowledge to differentiate between RCP 2.6 and 4.5 (and 8.5 for AIS). Projections of total ice sheet mass loss – given as a likely cumulative sea-level rise contribution – are thus partially scenario-independent. BA13 probed more deeply into the tail of ice sheet mass loss projections, inquiring into the 5th-95th percentile ranges of GIS, EAIS, and WAIS. However, BA13 does not differentiate between SMB and ice sheet dynamics or between RCPs.
+
+We reconcile the projections as described in the Supporting Information. For AIS, the reconciled RCP 8.5 projections (median/likely/very likely [90% probability] of 4/−8 to 15/−11 to 33 cm) are significantly reduced in range relative to BA13 (median/likely/very likely of 13/2 to 41/−2 to 83 cm); for GIS, the reconciled projections are almost identical to those based directly on AR5 and have a likely range (8 – 25 cm) close to the very likely range estimated from BA13 (9-29 cm) (Supporting Information Table S1).
+
+Ice sheet mass balance changes do not cause globally uniform sea-level rise. To account for the differing patterns of static-equilibrium sea-level rise caused by land ice mass loss, we apply sea-level fingerprints, calculated after Mitrovica et al. [2011] (Supporting Information Figure S2). These ﬁngerprints assume mass loss from each ice sheet is uniform; in most regions, the error introduced by this assumption is minimal [Mitrovica et al., 2011].
+
+Figure S2: Static equilibrium sea-level fingerprints employed for (a) GIS, (b) EAIS, (c) WAIS, and (d) median glaciers and ice cap mass loss. Units are meters of local sea level change per meter global sea level change.
+
+Glacier and Ice Caps
+~~~~~~~~~~~~~~~~~~~~
+
+For each RCP, we generate mass balance projections for 17 different source regions of glaciers and ice caps (described in the Supporting Information). For each source region, we employ a multivariate t-distribution of ice mass change with a mean and covariance estimated from the process model results of Marzeion et al. [2012]. Each source region has a distinct static-equilibrium sea-level fingerprint, calculated in the same fashion as for ice sheet mass loss (Supporting Information Figure S2).
+
+The projections based on Marzeion et al. [2012] are modestly narrower and have a slightly higher median than those of AR5: a likely range of 9-15 cm from non-Antarctic glaciers by 2100 for RCP 2.6 (vs. 4-16 cm for AR5) and 14-21 cm for RCP 8.5 (vs. 9-23 cm for AR5). We opt for the Marzeion et al. [2012] projections because of the availability of disaggregated output representing projections based on a suite of global climate models (GCMs) for each source region.
+
+Oceanographic Processes
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Projections of changes in GSL due to thermal expansion and in LSL due to regional steric and dynamic effects are based upon the CMIP5 GCMs. In particular, we employ a t-distribution with the mean and covariance of a multi-model ensemble constructed from the CMIP5 archive (Supporting Information Figures S3 and S4, Table S2). Values used are 19-year running averages. For each model, we use a single realization. The sea-level change at each tide-gauge location is assumed to be represented by the nearest ocean grid cell value of each GCM.
+
+Figure S3: CMIP5 thermal expansion projections (left) and after smoothing and drift correction (right). Black = GSL curve of Church and White [2011]. Dashed = mean/max/min of GSL with glacier and ice cap projections removed.
+
+Figure S4: Map of (top) median and (middle) width of likely range of ocean dynamic contribution to sea-level rise between 2000 and 2100 for RCP 8.5 (not including the contribution of global mean thermal expansion). (Bottom) Number of model projections retained at each site in RCP 8.5.
+
+Table S2: CMIP5 models used for thermal expansion and oceanographic processes
+
+The horizontal resolution of the CMIP5 ocean models is ~1 degree. In these coarse-resolution models, sea level at the coast may differ from the open ocean due to local biases driven by unresolved processes (e.g., coastal currents) and bathymetry [Holt et al., 2009] or via the influence of small-scale processes (e.g., eddies) on larger-scale steric and dynamic changes [Penduff et al., 2010, 2011]. Although there is some evidence that climate-forced trends in sea level are not sensitive to resolution [Penduff et al., 2011; Suzuki et al., 2005], higher-resolution coastal modeling is required to determine whether the probabilities estimated at the GCM grid scale are significantly changed by sub-grid processes.
+
+GCM projections exhibit a range of late nineteenth-century sea-level behavior largely attributable to model drift. Uncorrected GCM-based estimates of the rate of mean global sea-level change from 1861 to 1900 range from −0.4 to +1.1 mm/yr. To correct for global-mean model drift, we apply a linear correction term to each model. The linear correction adjusts the rate of GSL rise over 1861-1900 to match a rate of thermal expansion estimated by removing the multi-model average of GIC mass loss from Marzeion et al. [2012] from the GSL curve of Church and White [2011]. After correction, the rate of thermal expansion over 1861–1900 is 0.3 ± 0.9 (2σ) mm/yr (Supporting Information Figure S3).
+
+Consistent with AR5’s judgment that the 5th-95th percentile of CMIP5 output represents a likely (67% probability) range for global mean thermal expansion, we multiply the standard deviation of the t-distribution for oceanographic processes by 1.7.
+
+Land Water Storage
+~~~~~~~~~~~~~~~~~~
+
+Following the approach of Rahmstorf et al. [2012], we estimate GSL change due to changes in water storage on land based upon the relationship between such changes and population (Supporting Information Figure S5). For changes in reservoir storage, we use the historical cumulative impoundment estimate of Chao et al. [2008]. We assume that reservoir construction is a sigmoidal function of population:
+
+.. math::
+
+   I = a \times \mathrm{erf}\left(\frac{{P(t) - b}}{{c}}\right) + I_0
+   
+where I is impoundment expressed in mm equivalent sea level (esl), P(t) is world population as a function of time, and the remaining variables are constants. The results imply a maximum additional impoundment of 6 mm (esl) on top of the current 30 mm; based on the discrepancy between the “nominal” and “actual” impoundment estimated by Chao et al. [2008], we conservatively allow a 2σ error in this estimate of ±50 %.
+
+For the rate of groundwater depletion, we fit the estimates of Wada et al. [2012] and Konikow [2011] as linear functions of population, forced through the origin. The estimate of Wada et al. [2012] is based on fluxes estimated from a global hydrological model of groundwater recharge and a global database of groundwater abstraction, while that of Konikow [2011] uses a range of approaches depending on the data available for each aquifer. We take the mean and standard deviation of the two slopes estimated (0.06 ± 0.02 mm/yr/billion people) and allow an additional 2 error of ±50%, a level based upon the errors estimated by the authors of the two impoundment studies. In our main calculation, we do not include the water resource assessment model-based estimate of Pokhrel et al. [2012], which is about a factor of three higher than the other two estimates; we include this estimate in a sensitivity case.
+
+We employ population projections derived from United Nations Department of Economics and Social Aﬀairs [2014]. We treat population as distributed following a triangular distribution, with the median, minimum, and maximum values corresponding to the middle, low, and high U.N. scenarios (10.9, 6.8, and 16.6 billion people in 2100, respectively). For scenarios in which population declines, we allow some reduction in impoundment, but do not allow impoundment to decrease below its year 2000 level.
+
+
+Glacial Isostatic Adjustment, Tectonics, and Other Non-Climatic Local Effects
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+GIA, tectonics, and other non-climatic local effects that can be approximated as linear trends over the twentieth century are assumed to continue unchanged in the 21st and 22nd centuries. This is a good assumption for GIA, but imperfect for other processes. Tectonic processes can operate unsteadily, and a linear trend estimated from the historical record may be inaccurate. LSL rise related to fluid withdrawal is subject to engineering, resource depletion, market factors and policy controls, and might either increase or decrease in the future relative to historical levels. In addition, the trend estimates can encompass slow ocean dynamic changes that are close to constant over the historical record but could change in the future. Nonetheless, for a global analysis, assuming the continuation of observed historical changes offers the best currently feasible approach.
+
+We estimate historical rates using a spatiotemporal Gaussian process model akin to that employed by Kopp [2013]. Sea level as recorded in the tide-gauge records (Permanent Service for Mean Sea Level, Tide-gauge data, retrieved from http://www.psmsl.org/data/obtaining/, accessed January 2014) is represented as the sum of three Gaussian processes: (1) a globally uniform process, (2) a regionally varying, temporally linear process, and (3) a regionally varying, temporally autocorrelated non-linear process. We allow for spatial non-stationarity in the Gaussian process prior by optimizing the hyperparameters separately for each of 15 regions (Supporting Information Table S4 and Figure S6). The posterior estimate of the second (linear) process at each site is used for forward projections. Mathematical details are provided in the Supporting Information.
+
+Table S4: Optimized model hyperparameters by region
+
+Figure S6: Tide gauge sites and regions used in background rate calculation.
+
+Post-2100 Projections
+~~~~~~~~~~~~~~~~~~~~~
+
+Indicative post-2100 projections are developed according to the methods described in the previous sections. For ice sheet mass balance, we continue the constant 21st century acceleration. For non-climatic factors that are approximated as linear in the 21st century, we continue the constant 21st century rate. For land water storage, we extend the population projections using the 22nd century growth rates of United Nations Department of Economics and Social Aﬀairs [2004] and use the same relationships of impoundment and groundwater depletion to population as in the 21st century (Supporting Information Figure S5). The number of GCM-based model results for GIC and oceanographic processes drops significantly beyond 2100 (Supporting Information Table S2), leading in these terms to a modest discontinuity and a reduction in variance in these terms at the start of the 22nd century (Supporting Information Figure S7). Acknowledging the limitations of these assumptions, we present post-2100 projections in tables rounded to the nearest decimeter.
+
+Flood Probabilities
+~~~~~~~~~~~~~~~~~~~
+
+To examine the implications of our projections for coastal flooding, we combine Latin hypercube samples from the sea-level distribution for an illustrative subset of sites with maximum-likelihood generalized Pareto distributions (GPDs) estimated from observed storm tides after Tebaldi et al. [2012], updated to use the full historic record of hourly water levels available at each location. Hourly data for non-U.S. sites are from the University of Hawaii Sea Level Center (retrieved from uhslc.soest.hawaii.edu, May 2014). The estimated GPDs do not take into account any future changes in storm frequency, intensity, or track [e.g., Knutson et al., 2010], so projected future flood probabilities should be viewed primarily as an illustration.
+
+Using the maximum-likelihood GPDs, we compute return levels corresponding to a set of representative return periods (e.g., the 1-in-10 or 1-in-100 year flood events). For each decade of each realization of LSL change, we then add the projected sea-level change and re-estimate a GPD. The result for each realization is a trajectory of probabilities over time for each of the original return levels. For example, for the 10-year event, the initial probability at 2000 is 10% per year and increases over time as sea-level rises. Cumulatively summing each decade’s expectation through the century, we compute the expected number of the original events by 2100. Under stationary sea levels, there would be one expected 1-in-100 year event and ten expected 1-in-10 year events between 2001 and 2100.
+
+
+Sea-Level Projections
+---------------------
+
+Mean Global Sea-Level Projections
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The cumulative 21st century GSL contribution of each component is shown in Figure 2 (for RCP 8.5) and in Table 1 and Supporting Information Figure S7 (for all RCPs). In the 21st century, thermal expansion and GIC provide the largest contributions to the median outcome and have narrower uncertainty ranges than the ice sheet contributions. AIS has the broadest uncertainty range, extending from a small negative contribution to sea level (presumably due to warming-induced increased snow accumulation) to a large positive contribution (requiring a substantial and/or widespread dynamic change).
+
+Figure 2: Projections of cumulative contributions of (a) the Greenland ice sheet, (b) the Antarctic ice sheet, (c) thermal expansion, and (d) glaciers to sea-level rise in RCP 8.5. Heavy = median, light = 67% range, dashed = 5th – 95th percentile; dotted = 0.5th-99.5th percentiles.
+
+Table 1: GSL Projections
+
+Figure S7: Projections of (a) Greenland ice sheet, (b) Antarctic ice sheet, (c) thermal expansion, and (d) glacier contributions to sea-level rise in RCP 8.5 (red), RCP 4.5 (blue) and RCP 2.6 (green). Heavy = median, dashed = 67% range.
+
+Adding samples from the component distributions together indicates a likely GSL rise (Figure 3 and Table 1) in RCP 8.5 of 0.6 – 1.0 m by 2100, with a very likely range of 0.5 – 1.2 m and a virtually certain (99% probability) range of 0.4 – 1.8 m. The right-skewed “fat tail” of the projections arises from the ice sheet components. Even in the low-emissions RCP 2.6 pathway, sea-level rise by 2100 very likely exceeds the 32 cm that would be projected from a simple linear continuation of the 1993 – 2009 rate [Church and White, 2011].
+
+Figure 3: Projections of GSL rise for the three RCPs. Heavy = median, dashed = 5th – 95th percentile, dotted = 0.5th – 99.5th percentiles.
+
+Through the middle of the current century, GSL rise is nearly indistinguishable between the three forcing pathways (Figure 3 and Table 1). Only in the second half of the century do differences of >6 cm begin to emerge in either the median or the tails of the projections. By 2100, median projections reach 0.8 m for RCP 8.5, 0.6 m for RCP 4.5 and 0.5 m for RCP 2.6. By 2200, upper tail outcomes are clearly higher in the high-forcing pathway, yet there remains significant overlap in the ranges of all three pathways, with likely GSL rise by 2200 of 1.3 – 2.8 m in RCP 8.5 and 0.5 – 1.6 m in RCP 2.6. The overlap between RCPs is due in significant part to the large and scenario-independent uncertainty of AIS dynamics, even as the thermal expansion, GIC and, to a lesser extent, GIS contributions begin to differentiate (Supporting Information Figure S7).
+
+The importance of different components to the GSL uncertainty varies with time. While in 2020 about two-thirds of the total variance in GSL is due to uncertainty in projections of thermal expansion, by 2050 in RCP 8.5 changes in ice sheet volume are responsible for more than half the variance and changes in thermal expansion for only about one-third. By 2100, AIS alone is responsible for half the variance, with an additional 30% due to GIS uncertainty and only 15% due to uncertainty in thermal expansion (Figure 4). Because the uncertainty in AIS mass loss is largely scenario-independent, its dominant contribution to variance holds across RCPs; indeed, it is even more dominant in lower emissions pathways where the contributions from other sources are smaller and more strongly constrained (Supporting Information Figure S8).
+
+Figure 4: Sources of variance in raw (a, c) and fractional terms (b, d), globally (a – b) and at New York City (c – d) in RCP 8.5. AIS: Antarctic ice sheet, GIS: Greenland ice sheet, TE: thermal expansion, Ocean: oceanographic processes, GIC: glaciers and ice caps, LWS: land water storage, Bkgd: local background effects.
+
+Figure S8: Sources of variance in raw (left) and fractional terms (right), for a range of sites under RCP 2.6.
+
+
+
