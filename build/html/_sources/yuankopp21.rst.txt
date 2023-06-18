@@ -70,9 +70,6 @@ where \mathcal{F} denotes the adjusted radiative forcing, C and C_0 are the heat
 
 To calibrate FaIR-2LM, we adjust parameter settings (listed in Table 1) based on previous studies (Forster et al., 2013; Geoffroy, Saint-Martin, et al., 2013a; Zelinka et al., 2014). The radiative forcing in FaIR-2LM is driven by the default emission trajectory for each scenario in FaIR 1.3, but scaled by two parameters determined for each GCM: (1) the radiative forcing of CO_2 doubling (F_{2 \times CO_2}) reported by Forster et al. (2013), and (2) the present-day aerosol forcing (a*f_{pd}) estimated in previous studies (Forster et al., 2013; Zelinka et al., 2014), or -0.9 W m^{-2} - the median of range estimated by the Fifth Assessment Report of Intergovernmental Panel on Climate Change (IPCC AR5) (Stocker et al., 2013) - for models not reported in previous studies. The five parameters in Equations 1 and 2 (i.e., \lambda, \gamma, \epsilon, C, C_0) are the same as those in Geoffroy et al. (2013) for the corresponding GCMs.
 
-Table 1: FaIR-2LM Parameters adjusted to match the GSAT in CMIP5 GCMs. /lambda (W m^{-2} K^{-1}), \gamma (W m^{-2} K^{-1}), \epsilon, C (W yr m^{-2} K^{-1}), and C_0 (W yr m^{-2} K^{-1}) are reported by Geoffroy et al. (2013). The units for F_{2 \times CO_2} and af_{pd} are W m^{-2}
-
-
 Table 1: FaIR-2LM Parameters adjusted to match the GSAT in CMIP5 GCMs. :math:`\lambda` (W m\ :sup:`-2` K\ :sup:`-1`), :math:`\gamma` (W m\ :sup:`-2` K\ :sup:`-1`), :math:`\epsilon`, C (W yr m\ :sup:`-2` K\ :sup:`-1`), and :math:`C_0` (W yr m\ :sup:`-2` K\ :sup:`-1`) are reported by Geoffroy et al. (2013). The units for :math:`F_{2 \times CO_2}` and :math:`af_{pd}` are W m\ :sup:`-2`.
 
 +--------------+-----------------+-----------------+------------------+-----+-------------+---------------------------+-----------------+

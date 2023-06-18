@@ -15,6 +15,7 @@ Contents:
    kopp14
    yuankopp21
    little19
+   hamlington20jgr
 
 Indices and tables
 ==================
