@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yuan and Kopp (2021) &mdash; SeaLevelDocs 0.0.1 documentation</title>
@@ -11,11 +11,11 @@
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script src="_static/jquery.js"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
-        <script src="_static/sphinx_highlight.js"></script>
         <script>window.MathJax = {"tex": {"macros": {"erf": "\\operatorname{erf}"}}}</script>
         <script defer="defer" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script src="_static/js/theme.js"></script>
@@ -30,21 +30,18 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-
-          
-          
-          <a href="index.html" class="icon icon-home">
-            SeaLevelDocs
+            <a href="index.html" class="icon icon-home"> SeaLevelDocs
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="churchwhite11.html">Church and White (2011)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="kopp14.html">Kopp et al. (2014)</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Yuan and Kopp (2021)</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#abstract">Abstract</a></li>
@@ -61,6 +58,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="little19.html">Little et al. (2019)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hamlington20jgr.html">Hamlington et al. (JGR, 2020)</a></li>
 </ul>
 
         </div>
@@ -76,7 +74,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li><a href="index.html" class="icon icon-home"></a></li>
       <li class="breadcrumb-item active">Yuan and Kopp (2021)</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/yuankopp21.rst.txt" rel="nofollow"> View page source</a>
@@ -90,22 +88,22 @@
   <section id="yuan-and-kopp-2021">
 <h1>Yuan and Kopp (2021)<a class="headerlink" href="#yuan-and-kopp-2021" title="Permalink to this heading"></a></h1>
 <dl class="field-list simple">
-<dt class="field-odd">Title<span class="colon">:</span></dt>
+<dt class="field-odd">Title</dt>
 <dd class="field-odd"><p>Emulating Ocean Dynamic Sea Level by Two-Layer Pattern Scaling</p>
 </dd>
-<dt class="field-even">Key Points<span class="colon">:</span></dt>
+<dt class="field-even">Key Points</dt>
 <dd class="field-even"><ul class="simple">
 <li><p>An emulator for DSL changes is developed based on a two-layer energy balance model and a two-layer pattern scaling technique</p></li>
 <li><p>The two-layer emulator can better capture the evolution of DSL in corresponding coupled GCMs than scaling of global mean surface temperature</p></li>
 <li><p>The two-layer emulator allows estimation of the probability of future DSL changes in various emission scenarios over multiple centuries</p></li>
 </ul>
 </dd>
-<dt class="field-odd">Corresponding author<span class="colon">:</span></dt>
+<dt class="field-odd">Corresponding author</dt>
 <dd class="field-odd"><ol class="upperalpha simple" start="10">
 <li><p>Yuan</p></li>
 </ol>
 </dd>
-<dt class="field-even">Citation<span class="colon">:</span></dt>
+<dt class="field-even">Citation</dt>
 <dd class="field-even"><p>Yuan, J., &amp; Kopp, R. E. (2021). Emulating ocean dynamic sea level by two-layer pattern scaling. Journal of Advances in Modeling Earth Systems, 13, e2020MS002323, <a class="reference external" href="https://doi.org/10.1029/2020MS002323">https://doi.org/10.1029/2020MS002323</a></p>
 </dd>
 </dl>
@@ -150,6 +148,16 @@
 <p>To calibrate FaIR-2LM, we adjust parameter settings (listed in Table 1) based on previous studies (Forster et al., 2013; Geoffroy, Saint-Martin, et al., 2013a; Zelinka et al., 2014). The radiative forcing in FaIR-2LM is driven by the default emission trajectory for each scenario in FaIR 1.3, but scaled by two parameters determined for each GCM: (1) the radiative forcing of CO_2 doubling (F_{2 times CO_2}) reported by Forster et al. (2013), and (2) the present-day aerosol forcing (a*f_{pd}) estimated in previous studies (Forster et al., 2013; Zelinka et al., 2014), or -0.9 W m^{-2} - the median of range estimated by the Fifth Assessment Report of Intergovernmental Panel on Climate Change (IPCC AR5) (Stocker et al., 2013) - for models not reported in previous studies. The five parameters in Equations 1 and 2 (i.e., lambda, gamma, epsilon, C, C_0) are the same as those in Geoffroy et al. (2013) for the corresponding GCMs.</p>
 <p>Table 1: FaIR-2LM Parameters adjusted to match the GSAT in CMIP5 GCMs. <span class="math notranslate nohighlight">\(\lambda\)</span> (W m<sup>-2</sup> K<sup>-1</sup>), <span class="math notranslate nohighlight">\(\gamma\)</span> (W m<sup>-2</sup> K<sup>-1</sup>), <span class="math notranslate nohighlight">\(\epsilon\)</span>, C (W yr m<sup>-2</sup> K<sup>-1</sup>), and <span class="math notranslate nohighlight">\(C_0\)</span> (W yr m<sup>-2</sup> K<sup>-1</sup>) are reported by Geoffroy et al. (2013). The units for <span class="math notranslate nohighlight">\(F_{2 \times CO_2}\)</span> and <span class="math notranslate nohighlight">\(af_{pd}\)</span> are W m<sup>-2</sup>.</p>
 <table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 13%" />
+<col style="width: 13%" />
+<col style="width: 14%" />
+<col style="width: 4%" />
+<col style="width: 10%" />
+<col style="width: 21%" />
+<col style="width: 13%" />
+</colgroup>
 <tbody>
 <tr class="row-odd"><td><p>CMIP5 GCMs</p></td>
 <td><p><span class="math notranslate nohighlight">\(\lambda\)</span></p></td>
