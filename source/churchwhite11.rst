@@ -39,11 +39,11 @@ Methods and Data
 In Situ Sea-Level Data
 ~~~~~~~~~~~~~~~~~~~~~~
 
-We use monthly sea-level data downloaded from the Permanent Service for Mean Sea Level (PSMSL; Woodworth and Player 2003) web site (http://www.psmsl.org) in August 2010. Careful selection and editing criteria, as given by Church et al. (2004) were used. The list of stations used in the reconstruction is available on our web site at http://www.cmar.csiro.au/sealevel/sl_data_cmar.html. Tide gauge records are assigned to the nearest locations (with good satellite altimeter data) on the 1û-by-1û grid of the satellite altimeter based EOFs. Where more than one record is assigned to a single grid point they are averaged. Changes in height from 1 month to the next are stored for use in the reconstruction.
+We use monthly sea-level data downloaded from the Permanent Service for Mean Sea Level (PSMSL; Woodworth and Player 2003) web site (http://www.psmsl.org) in August 2010. Careful selection and editing criteria, as given by Church et al. (2004) were used. The list of stations used in the reconstruction is available on our web site at http://www.cmar.csiro.au/sealevel/sl_data_cmar.html. Tide gauge records are assigned to the nearest locations (with good satellite altimeter data) on the 1˚-by-1˚ grid of the satellite altimeter based EOFs. Where more than one record is assigned to a single grid point they are averaged. Changes in height from 1 month to the next are stored for use in the reconstruction.
 
-The number of locations with sea-level data available for the reconstruction is larger than in our earlier 2004 (Church et al. 2004) and 2006 (Church and White 2006) studies, particularly prior to 1900 (Fig. 1). In the 1860s there are only 7Ð14 locations available, all North of 30 N. In the 1870s, there is one record available South of 30 N but still none in the southern hemisphere and it is only in the second half of the 1880s (Fort Denison, Sydney, Australia starts in January 1886) that the first southern hemisphere record becomes available. While we attempted the reconstruction back to 1860, the results showed greater sensitivity to details of the method prior to the 1880s when the first southern hemisphere record is available (see below for further discussion). As a result, while we show the reconstruction back to 1860, we restricted the subsequent analysis (computation of trends, etc.) to after 1880. The number of locations with data available increases to 38 in 1900 (from 71 individual gauges), including several in the southern hemisphere, to about 85 locations in 1940 (from 130 individual gauges but with still less than 10 in the southern hemisphere), and to about 190 in 1960 (from about 305 individual gauges with about 50 locations in the southern hemisphere). The number of locations peaks in May 1985 at 235 (from 399 individual gauges, with slightly less than one-third in the ocean-dominated southern hemisphere; Fig. 1). The largest gaps are in the Southern Ocean, the South Atlantic Ocean and around Africa (Fig. 1f). Through the 1990s there are at least 200 locations available from between 370 and 400 gauges. For the last few years there are fewer records available because of the unavoidable delay in the transmission by national authorities of monthly and annual mean information to the PSMSL. In December 2009, there are 135 locations available from 250 gauges.
+The number of locations with sea-level data available for the reconstruction is larger than in our earlier 2004 (Church et al. 2004) and 2006 (Church and White 2006) studies, particularly prior to 1900 (Figure 1). In the 1860s there are only 7-14 locations available, all north of 30˚N. In the 1870s, there is one record available South of 30˚N but still none in the southern hemisphere and it is only in the second half of the 1880s (Fort Denison, Sydney, Australia starts in January 1886) that the first southern hemisphere record becomes available. While we attempted the reconstruction back to 1860, the results showed greater sensitivity to details of the method prior to the 1880s when the first southern hemisphere record is available (see below for further discussion). As a result, while we show the reconstruction back to 1860, we restricted the subsequent analysis (computation of trends, etc.) to after 1880. The number of locations with data available increases to 38 in 1900 (from 71 individual gauges), including several in the southern hemisphere, to about 85 locations in 1940 (from 130 individual gauges but with still less than 10 in the southern hemisphere), and to about 190 in 1960 (from about 305 individual gauges with about 50 locations in the southern hemisphere). The number of locations peaks in May 1985 at 235 (from 399 individual gauges, with slightly less than one-third in the ocean-dominated southern hemisphere; Figure 1). The largest gaps are in the Southern Ocean, the South Atlantic Ocean and around Africa (Figure 1f). Through the 1990s there are at least 200 locations available from between 370 and 400 gauges. For the last few years there are fewer records available because of the unavoidable delay in the transmission by national authorities of monthly and annual mean information to the PSMSL. In December 2009, there are 135 locations available from 250 gauges.
 
-.. figure:: figures/churchwhite13/fig01.jpg
+.. figure:: figures/churchwhite11/fig01.jpg
    :align: center
    :width: 50%
 
@@ -107,7 +107,7 @@ Separate versions of the altimeter data sets with and without the inverse barome
 
 In the original (Church et al. 2004; Church and White 2006) reconstructions, the EOFs were defined with the 9 and 12 years (respectively) of TOPEX/Poseidon and Jason-1 satellite altimeter data available at those times. There are now 17 years of monthly satellite altimeter data available, almost twice as long as the original series. This longer time series should be able to better represent the variability and result in an improved reconstruction of global average sea level, as found by Christiansen et al. (2010). After removing the global average trend and the seasonal (annual plus semi-annual) signal, the first four EOFs account for 29, 8, 5 and 4% of the variance (Figure 2). If the seasonal signal is not removed, the first four EOFs account for 24, 18, 14 and 4% of the variance. These EOFs characterise the large-scale interannual variability, particularly that associated with the El Nino-Southern Oscillation phenomenon, and for the case where the seasonal signal has not been removed, also include the seasonal north/south oscillation of sea level.
 
-.. figure:: figures/churchwhite13/fig02.jpg
+.. figure:: figures/churchwhite11/fig02.jpg
    :align: center
    :width: 50%
 
@@ -135,7 +135,7 @@ The reconstructed and satellite estimates of GMSL have somewhat different error 
 
 The global mean sea level can be computed cycle-by-cycle (every 10 days) directly from the along track satellite data or from the mapped (monthly) satellite data. After averaging the cycle-by-cycle data set over 3 cycles these two estimates for the Jason-1 mission (February 2002 to January 2009; Figure 3) are very similar; the differences have a standard deviation of 1.0 mm. The trends are different by only 0.2 mm year^{-1}, with the trend from the gridded data set being higher numerically, but not statistically different from the trend from the along-track data set.
 
-.. figure:: figures/churchwhite13/fig03.jpg
+.. figure:: figures/churchwhite11/fig03.jpg
    :align: center
    :width: 50%
 
@@ -143,7 +143,7 @@ The global mean sea level can be computed cycle-by-cycle (every 10 days) directl
 
 The reconstructed and altimeter GMSL both increase from 1993 to the end of the record (Figure 4). The larger year-to-year variability of the reconstructed signal (compared with the altimeter record) of ~4-5 mm is less than the one standard deviation uncertainty estimates of about ±7 mm. For almost all of the record, the reconstruction is within the one standard deviation uncertainty estimate of the altimeter record. The uncertainty of the reconstruction increases slightly in the last couple of years because of the smaller number of tide gauge records available through the PSMSL.
 
-.. figure:: figures/churchwhite13/fig04.jpg
+.. figure:: figures/churchwhite11/fig04.jpg
    :align: center
    :width: 50%
 
@@ -156,7 +156,7 @@ After correcting for the GIA, the linear trend from the altimeter data from Janu
 
 The GMSL time series (Figure 5) are not significantly different from our earlier 2006 result (Church and White 2006). The total GMSL rise (Figure 5) from January 1880 to December 2009 is about 210 mm over the 130 years. The trend over this period, not weighted by the uncertainty estimates, is 1.5 mm year^{-1} (1.6 mm year^{-1} when weighted by the uncertainty estimates). Although the period starts 10 years later in 1880 (rather than 1870), the total rise (Figure 5) is larger than our 2006 estimate of 195 mm mostly because the series extends 8 years longer to 2009 (compared with 2001).
 
-.. figure:: figures/churchwhite13/fig05.jpg
+.. figure:: figures/churchwhite11/fig05.jpg
    :align: center
    :width: 50%
 
@@ -175,7 +175,7 @@ One source of error is the poor corrections for land motion. Bouin and Wooppelma
 
 A significant non-climatic influence on sea level is the storage of water in dams and the depletion of ground water from aquifers, some of which makes it into the ocean. Chao et al. (2008) estimated that about 30 mm of sea-level equivalent is now stored in man-made dams and the surrounding soils; most of this storage occurred since the 1950s. Globally, the rate of dam entrapment has slowed significantly in the last decade or two. The depletion of ground water (Konikow et al. personal communication; Church et al. in preparation) offsets perhaps a third of this terrestrial storage over the last two decades and the rate of depletion has accelerated over the last two decades.
 
-.. figure:: figures/churchwhite13/fig06.jpg
+.. figure:: figures/churchwhite11/fig06.jpg
    :align: center
    :width: 50%
 
@@ -183,7 +183,7 @@ A significant non-climatic influence on sea level is the storage of water in dam
 
 We remove this direct (non-climate) anthropogenic change in terrestrial water storage (both dam storage and aquifer depletion) from our observations to focus on the sea-level change related to climatic influences. The resulting time series (Figure 7) shows a slightly faster rate of sea-level rise since about 1960 and a slightly larger acceleration for the periods since 1880 and 1900. Terrestrial storage contributed to the sea level fall in the 1960s but does not fully explain it. The volcanic eruptions of Mt Agung in 1963, El Chichon in 1982 and Mt Pinatubo in 1991 probably contribute to the small sea level falls in the few years following these eruptions (Church et al. 2005; Gregory et al. 2006; Domingues et al. 2008) but it has not yet been possible to quantitatively explain the mid 1960s fall in sea level (Church et al. in preparation).
 
-.. figure:: figures/churchwhite13/fig07.jpg
+.. figure:: figures/churchwhite11/fig07.jpg
    :align: center
    :width: 50%
 
@@ -193,7 +193,7 @@ The acceleration in the rate of sea-level rise since 1880 is in qualitative agre
 
 In addition to the overall increase in the rate of sea-level rise, there is also considerable variability in the rate. Using the yearly average data, we computed trends for successive 16 year periods (close to the length of the altimeter data set) from 1880 to the present (Figure 8). We find maxima in the rates of sea-level rise of over 2 mm year^{-1} in the 1940s and 1970s and nearly 3 mm year^{-1} in the 1990s (Figure 8). As in earlier studies (using 10 and 20 year windows; Church and White 2006; Church et al. 2008), the most recent rate of rise over these short 16 year windows is at the upper end of a histogram of trends but is not statistically higher than the peaks during the 1940s and 1970s. Consistent with the findings of Christiansen et al. (2010), our computed variability in the rates of rise are almost a factor of two less than those where an average of tide gauges (Holgate and Woodworth 2004; Holgate 2007) is used to estimate GMSL. The rate of sea-level rise since 1970 has now been quantitatively explained (Church et al. in preparation) by a gradual increase in ocean thermal expansion, with fluctuations at least partly related to volcanic eruptions, and an increasing cryospheric contribution. The contribution from glaciers and ice caps (Cogley 2009), and the Greenland Ice Sheet (Rignot et al. 2008, 2011) both increased in the 1990s. There are also recent indications of an increasing contribution from the West Antarctic Ice Sheet (Rignot et al. 2011). The larger rate of rise in the 1940s may be related to larger glacier and ice-cap contributions (Oerlemanns et al. 2007) and higher temperatures over Greenland resulting in larger sea-level contributions at that time.
 
-.. figure:: figures/churchwhite13/fig08.jpg
+.. figure:: figures/churchwhite11/fig08.jpg
    :align: center
    :width: 50%
 
