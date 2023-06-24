@@ -8,7 +8,7 @@ Hamlington et al. (JGR, 2020)
     - Areas where the lack of understanding or gaps in knowledge inhibit the ability to assess future sea-level change are discussed
     - The role of the expanded sea-level observation network in improving our understanding of sea-level change is highlighted
 
-:Corresponding author: C. M. Little
+:Corresponding author: B. D. Hamlington
 
 :Citation: Hamlington, B. D., Gardner, A. S., Ivins, E., Lenaerts, J. T. M., Reager, J. T., Trossman, D. S., et al. (2020). Understanding of contemporary regional sea-level change and the implications for the future. Reviews of Geophysics, 58, e2019RG000672. https://doi.org/10.1029/2019RG000672
 
