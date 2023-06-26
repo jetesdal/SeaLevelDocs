@@ -13,12 +13,17 @@ Contents:
    :maxdepth: 1
 
    churchwhite11
+   kuhlbrodtgregory12
+   hallberg13
    kopp14
    horton18
    yuankopp21
    little19
    hamlington20jgr
+   sadai20
    zika21
+   deconto21
+   li23sciadv
 
 Indices and tables
 ==================
