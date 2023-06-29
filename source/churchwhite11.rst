@@ -4,11 +4,13 @@ Church and White (2011)
 
 :Title: Sea-Level Rise from the Late 19th to the Early 21st Century
 
+:Keywords: Sea level, Climate change, Satellite altimeter, Tide gauge
+
 :Corresponding author: J. A. Church
 
 :Citation: Church, J. A. & White, N. J. (2011). Sea-Level Rise from the Late 19th to the Early 21st Century. Surveys in Geophysics, 32, 585–602.
 
-:Keywords: Sea level, Climate change, Satellite altimeter, Tide gauge
+:URL: https://link.springer.com/article/10.1007/s10712-011-9119-1
 
 
 Abstract

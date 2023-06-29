@@ -12,6 +12,7 @@ Contents:
 .. toctree::
    :maxdepth: 1
 
+   suzuki05
    churchwhite11
    kuhlbrodtgregory12
    hallberg13
@@ -21,8 +22,13 @@ Contents:
    little19
    hamlington20jgr
    sadai20
+   palmer20
+   couldrey21
    zika21
    deconto21
+   li22james
+   slangen22
+   vandewal22
    li23sciadv
 
 Indices and tables

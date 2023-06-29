@@ -8,6 +8,8 @@ Li et al. (2023)
 
 :Citation: Li, D., DeConto, R. M., & Pollard, D. (2023). Climate model differences contribute deep uncertainty in future Antarctic ice loss. Science Advances, 9(7), eadd7082. doi: 10.1126/sciadv.add7082
 
+:URL: https://www.science.org/doi/10.1126/sciadv.add7082
+
 Abstract
 --------
 

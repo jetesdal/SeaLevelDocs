@@ -12,6 +12,8 @@ Yuan and Kopp (2021)
 
 :Citation: Yuan, J., & Kopp, R. E. (2021). Emulating ocean dynamic sea level by two-layer pattern scaling. Journal of Advances in Modeling Earth Systems, 13, e2020MS002323, https://doi.org/10.1029/2020MS002323
 
+:URL: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020MS002323
+
 Abstract
 --------
 

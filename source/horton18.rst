@@ -9,7 +9,8 @@ Horton et al. (2018)
 :Corresponding author: B. P. Horton
 
 :Citation: Horton, B. P., Kopp, R. E., Garner, A. J., Hay, C. C., Khan, N. S., Roy, K., & Shaw, T. A. (2018). Mapping Sea-Level Change in Time, Space, and Probability. Annual Review of Environment and Resources, 43(1), 481–521. doi:10.1146/annurev-environ-102017-025826
-           
+
+:URL: https://www.annualreviews.org/doi/10.1146/annurev-environ-102017-025826
 
 Abstract
 --------
