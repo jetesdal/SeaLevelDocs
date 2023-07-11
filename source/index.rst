@@ -13,6 +13,7 @@ Contents:
    :maxdepth: 1
 
    suzuki05
+   hughes10
    churchwhite11
    kuhlbrodtgregory12
    church13
@@ -32,6 +33,7 @@ Contents:
    yin2020
    yuankopp21
    couldrey21
+   dangendorf21
    zika21
    deconto21
    li22james

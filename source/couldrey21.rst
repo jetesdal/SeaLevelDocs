@@ -4,6 +4,13 @@ Couldrey et al. (2021)
 
 :Title: What causes the spread of model projections of ocean dynamic sea-level change in response to greenhouse gas forcing?
 
+:Key Points:
+    - Ocean model diversity in AOGCMs is a key source of uncertainty in sea-level projections under greenhouse gas forcing.
+    - Increased air-sea heat flux sets the broad pattern of dynamic sea-level change; wind stress and freshwater flux have localized effects.  
+    - Nonlinear dynamic sea-level responses occur with simultaneous flux perturbations, especially in the Arctic and North Atlantic
+     
+:Keywords: sea-level rise, ocean heat uptake, climate change, climate modeling, ocean model diversity, air-sea flux perturbations, FAFMIP
+
 :Corresponding author: Matthew P. Couldrey
 
 :Citation: Couldrey, M. P., Gregory, J. M., Dias, F. B., Dobrohotoff, P., Domingues, C. M., Garuba, O., et al. (2021). What causes the spread of model projections of ocean dynamic sea-level change in response to greenhouse gas forcing? Climate Dynamics, 56(1–2), 155–187. doi:10.1007/s00382-020-05471-4
@@ -55,8 +62,8 @@ The FAFMIP protocol presents a method that mimics the effect of 1pctCO2 forcing 
 
 Time-dependent CO2 and other forcing causes a varying magnitude of sea-level change, while the spatial pattern is relatively time-invariant (Hawkes 2013; Perrette et al. 2013; Slangen et al. 2014; Bilbao et al. 2015). This phenomenon of ‘pattern scaling’ means that time-dependent forcing is not necessary for our investigation of the spatial structure. Therefore, in the interest of simplicity the FAFMIP flux perturbations are applied as a constant forcing for the full 70 years of each experiment, with no time-variation except for the annual cycle.
 
-2.2 Experiments
-~~~~~~~~~~~~~~~
+Experiments
+~~~~~~~~~~~
 
 FAFMIP perturbations to the fluxes of heat, water and momentum (Fig. 1) were applied in five different experiments, as listed below. All perturbations were applied at the air-sea interface in direct contact with seawater surface, such that sea ice is not directly affected. However, there will be indirect effects on sea ice due to the redistribution of heat and freshwater in response to all the perturbations. The heat and freshwater fluxes are defined positive downward into the ocean, and the momentum flux perturbations are positive eastward and northward. FAFMIP experiments were run by nine modelling groups using 13 AOGCMs (Table 1).
 
