@@ -79,11 +79,22 @@ In this section, we detail the physical reasoning behind the estimates of the in
 
 
 Table 1: Overview of Ciritical Processes for High-End Estimate of the Cryospheric Components of Sea Level Rise Per Time Scale and Scenario
-                2100-low   |	2100-high   |	2300-low    |	2300-high
-Glaciers	Temperature increase	Temperature increase	Temperature increase, glacier mass equilibrium	Temperature increase, amount of glacier ice
-Greenland	Temperature increase, outlet glacier acceleration	Temperature increase, albedo feedbacks, atmospheric circulation changes	Temperature increase	Temperature increase, albedo feedbacks, atmospheric circulation changes, tipping points
-Antarctica	SMB, BMB, switch in flow below shelves	SMB, shelf collapse, BMB, calving, hydrofracturing	SMB, shelf collapse, BMB, calving, hydrofracturing	MISI, MICI, basal sliding
 
++------------+-----------------------+-----------------------+----------------------------------+---------------------------------------------------+
+|            | 2100-low              | 2100-high             | 2300-low                         | 2300-high                                         |
++============+=======================+=======================+==================================+===================================================+
+| Glaciers   | Temperature increase  | Temperature increase  | Temperature increase, glacier    | Temperature increase, amount of glacier ice       |
+|            |                       |                       | mass equilibrium                 |                                                   |
++------------+-----------------------+-----------------------+----------------------------------+---------------------------------------------------+
+| Greenland  | Temperature increase, | Temperature increase, | Temperature increase             | Temperature increase, albedo feedbacks,           |
+|            | outlet glacier        | albedo feedbacks,     |                                  | atmospheric circulation changes, tipping points   |
+|            | acceleration          | atmospheric           |                                  |                                                   |
+|            |                       | circulation changes   |                                  |                                                   |
++------------+-----------------------+-----------------------+----------------------------------+---------------------------------------------------+
+| Antarctica | SMB, BMB, switch in   | SMB, shelf collapse,  | SMB, shelf collapse, BMB,        | MISI, MICI, basal sliding                         |
+|            | flow below shelves    | BMB, calving,         | calving, hydrofracturing         |                                                   |
+|            |                       | hydrofracturing       |                                  |                                                   |
++------------+-----------------------+-----------------------+----------------------------------+---------------------------------------------------+
 
 The Glacier Model Intercomparison Project Phase 2 (GlacierMIP2; Marzeion et al., 2020), is a community effort based on CMIP5 model runs estimating the mass loss of global glaciers. It includes 11 different glacier models, of which seven include all the glaciers outside of Greenland and Antarctica, and four are regional. The glacier models are forced by up to 10 General Circulation Models (GCMs) per RCP scenario, such that a total of 288 ensemble members form the basis of this most recent estimate of glacier mass change projections for the 21st century. Compared to this, projections that include the 23rd century are sparse and based on individual models (e.g., Goelzer et al., 2012; Marzeion et al., 2012). Some information about long-term glacier mass change can be obtained from equilibrium experiments (e.g., Levermann et al., 2013; Marzeion et al., 2018).
 

@@ -8,7 +8,7 @@ Kopp et al. (2014)
     - Differences arise from land motion, ocean dynamics, and Antarctic mass balance
     - Local sea-level rise can dramatically increase flood probabilities
 
-:Corresponding author: R. E. Kopp
+:Corresponding author: Robert E. Kopp
 
 :Citation: Kopp, R. E., R. M. Horton, C. M. Little, J. X. Mitrovica, M. Oppenheimer, D. J. Rasmussen, B. H. Strauss, and C. Tebaldi (2014), Probabilistic 21st and 22nd century sea-level projections at a global network of tide-gauge sites, Earth's Future, 2, 383 – 406, doi:10.1002/2014EF000239.
 
