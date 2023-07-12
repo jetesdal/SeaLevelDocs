@@ -5,11 +5,11 @@ Dangendorf et al. (2021)
 :Title: Data-driven reconstruction reveals large-scale ocean circulation control on coastal sea level
 
 :Key Points:
-    - .
-    - . 
-    - .
+    - Regional coastal sea levels are largely dominated by sterodynamic sea-level variations
+    - Steric sea level signals originate from open ocean regions often thousands of kilometers away
+    - Better understanding of sterodynamic sea-level variations is key for robust near-term coastal sea-level estimates
      
-:Keywords:
+:Keywords: steric dynamic sea level, coastal sea level, tide gauge, Empirical Orthogonal Functions
        
 :Corresponding author: S. Dangendorf
                       
